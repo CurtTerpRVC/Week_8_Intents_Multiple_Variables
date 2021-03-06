@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 hideKeyboard()
                 txtString.requestFocus()
+                txtString.setText("")
             }
 
         }// end of Onclick Listener
